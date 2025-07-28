@@ -1,7 +1,0 @@
-streamlit
-python-dotenv
-openai
-groq
-pypdf
-docx2txt
-google-generativeai
