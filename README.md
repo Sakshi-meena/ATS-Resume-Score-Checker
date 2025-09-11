@@ -16,11 +16,6 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 
 ---
 
-## 📸 UI Preview
-![ATS Score Checker UI](assets/ats-ui-screenshot.png) 
-
----
-
 ## 🛠 Quickstart
 
 1. *Clone the repo:*
