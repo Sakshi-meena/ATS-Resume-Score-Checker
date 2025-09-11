@@ -29,7 +29,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
    # or, if using pyproject.toml
    pip install .
    
-3. *Run the app:*
+4. *Run the app:*
    bash
    streamlit run app.py
    
