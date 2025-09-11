@@ -1,4 +1,4 @@
-# 🤖 ATS Score Checker
+# ATS Score Checker
 
 [![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b?logo=streamlit&logoColor=white)](https://streamlit.io/) [![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-10a37f?logo=openai&logoColor=white)](https://openai.com/)
 
@@ -6,7 +6,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 
 ---
 
-## 🚀 Features
+## Features
 - *LLM-powered scoring:* Uses GPT-4o to analyze and score Education, Skills, and Experience.
 - *Advanced skill matching:* Extracts both required (JD) and resume-listed skills, highlighting matched and missing ones.
 - *Interactive visualizations:* Modern Plotly radar, bar, and pie charts for section scores and skill coverage.
@@ -16,7 +16,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 
 ---
 
-## 🛠 Quickstart
+## Quickstart
 
 1. *Clone the repo:*
    bash
@@ -35,7 +35,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
    
 ---
 
-## 💡 How to Use
+## How to Use
 1. *Enter your OpenAI, Groq, or Gemini API key(s) in the sidebar.*
 2. *Upload a resume (PDF or DOCX).*
 3. *Paste the job description.*
@@ -44,7 +44,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 
 ---
 
-## 🔑 API Keys
+## API Keys
 - *OpenAI API key required* for GPT-4o scoring. Get yours at [platform.openai.com](https://platform.openai.com/).
 - Keys are stored locally and never shared.
 
