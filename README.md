@@ -26,14 +26,13 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 2. *Install dependencies:*
    bash
    pip install -r requirements.txt
-   # or, if using pyproject.toml
+   or, if using pyproject.toml
    pip install .
    
 4. *Run the app:*
    bash
    streamlit run app.py
    
-
 ---
 
 ## 💡 How to Use
