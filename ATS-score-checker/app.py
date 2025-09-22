@@ -161,3 +161,4 @@ if st.button("Run ATS Evaluation"):
             st.markdown(f"- **Education:** {ats_result['education_reasoning']}")
             st.markdown(f"- **Skills:** {ats_result['skills_reasoning']}")
             st.markdown(f"- **Experience:** {ats_result['experience_reasoning']}")
+
