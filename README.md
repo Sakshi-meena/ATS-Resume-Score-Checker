@@ -11,8 +11,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 - *Advanced skill matching:* Extracts both required (JD) and resume-listed skills, highlighting matched and missing ones.
 - *Interactive visualizations:* Modern Plotly radar, bar, and pie charts for section scores and skill coverage.
 - *Intelligent job requirements extraction:* Gathers requirements from bullet points, section headers, and key verbs.
-- *Beautiful UI:* Clean, dark-themed dashboard with clear sectioning and branding.
-- *Personal branding:* Sidebar includes links and contact info for [Rizwan Rizwan](https://www.linkedin.com/in/rizwan-rizwan-1351a650/).
+- *Beautiful UI:* Clean, dark-themed dashboard with clear sectioning and branding..
 
 ---
 
