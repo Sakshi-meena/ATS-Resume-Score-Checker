@@ -47,3 +47,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 - *OpenAI API key required* for GPT-4o scoring. Get yours at [platform.openai.com](https://platform.openai.com/).
 - Keys are stored locally and never shared.
 
+---
+
+## Project Demo 
+https://ats-resume-score-checker-mtb3f24ml74euzywep7kry.streamlit.app/
