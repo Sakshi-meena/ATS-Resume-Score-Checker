@@ -19,7 +19,7 @@ A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring 
 
 1. *Clone the repo:*
    bash
-   git clone https://github.com/Rizwankaka/ATS-score-checker.git
+   https://github.com/Sakshi-meena/ATS-Resume-Score-Checker.git
    cd ATS-score-checker
    
 2. *Install dependencies:*
