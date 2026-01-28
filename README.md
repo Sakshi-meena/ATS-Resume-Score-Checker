@@ -4,14 +4,6 @@
 
 A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring dashboard. Instantly analyze your resume against any job description using LLMs (GPT-4o), advanced skill extraction, and beautiful interactive charts.
 
----
-##Technologies Used
--*Frontend & UI:* Streamlit
--*Backend:* Python
--*AI / NLP:* OpenAI GPT-3.5, Groq Mixtral, Gemini Pro
--*Text Processing:* Regex, NLP
--*Visualization:* Plotly (Radar, Bar, Pie charts)
-
 Deployment & Security: Environment-based API keys (.env)
 ## Features
 - *LLM-powered scoring:* Uses GPT-4o to analyze and score Education, Skills, and Experience.
@@ -21,7 +13,16 @@ Deployment & Security: Environment-based API keys (.env)
 - *Beautiful UI:* Clean, dark-themed dashboard with clear sectioning and branding..
 
 ---
+## Technologies Used
 
+* **Frontend & UI:** Streamlit
+* **Backend:** Python
+* **AI / NLP:** OpenAI GPT-3.5, Groq Mixtral, Gemini Pro
+* **Text Processing:** Regex, NLTK
+* **Visualization:** Plotly (Radar, Bar, Pie charts)
+* **Deployment & Security:** Environment-based API keys (.env)
+* 
+---
 ## Quickstart
 
 1. *Clone the repo:*
@@ -58,3 +59,38 @@ Deployment & Security: Environment-based API keys (.env)
 
 ## Project Demo 
 https://ats-resume-score-checker-mtb3f24ml74euzywep7kry.streamlit.app/
+
+---
+
+## Final System Flow
+
+```
+User
+ |
+ | Upload Resume (PDF/DOCX)
+ | Paste Job Description
+ v
+Streamlit UI
+ |
+ | Text Extraction (parser)
+ v
+Resume & JD Text
+ |
+ | Regex → Extract sections, bullets
+ | NLP → Match skills intelligently
+ v
+Scoring Engine
+ |
+ | Calculate section-wise scores:
+ | - Education
+ | - Skills
+ | - Experience
+ | Generate final ATS score (0–100)
+ v
+Plotly Visualizations
+ |
+ | Radar Chart → Section Scores
+ | Bar Chart → Skill Coverage
+ | Pie Chart → Skill Match Overview
+ v
+Interactive Dashboard → User Insights & Suggestions
