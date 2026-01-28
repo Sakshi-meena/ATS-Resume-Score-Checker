@@ -21,7 +21,6 @@ Deployment & Security: Environment-based API keys (.env)
 * **Text Processing:** Regex, NLTK
 * **Visualization:** Plotly (Radar, Bar, Pie charts)
 * **Deployment & Security:** Environment-based API keys (.env)
-* 
 ---
 ## Quickstart
 
