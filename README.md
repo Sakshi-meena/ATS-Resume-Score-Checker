@@ -5,7 +5,14 @@
 A modern, AI-powered Applicant Tracking System (ATS) resume checker and scoring dashboard. Instantly analyze your resume against any job description using LLMs (GPT-4o), advanced skill extraction, and beautiful interactive charts.
 
 ---
+##Technologies Used
+-*Frontend & UI:* Streamlit
+-*Backend:* Python
+-*AI / NLP:* OpenAI GPT-3.5, Groq Mixtral, Gemini Pro
+-*Text Processing:* Regex, NLP
+-*Visualization:* Plotly (Radar, Bar, Pie charts)
 
+Deployment & Security: Environment-based API keys (.env)
 ## Features
 - *LLM-powered scoring:* Uses GPT-4o to analyze and score Education, Skills, and Experience.
 - *Advanced skill matching:* Extracts both required (JD) and resume-listed skills, highlighting matched and missing ones.
